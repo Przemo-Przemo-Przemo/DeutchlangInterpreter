@@ -13,10 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Token">
+      <UniqueIdentifier>{0418f544-e26d-4e69-a048-f266e798a3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AbstractSyntaxTree">
+      <UniqueIdentifier>{b917560a-2ec8-4ce4-91a9-fd9722a4555d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lexer">
+      <UniqueIdentifier>{32c53f9e-e469-4f48-93a7-3193978762e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interpreter">
+      <UniqueIdentifier>{87767452-8255-4530-b0fb-2213c6ff8adc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DeutchlangInterpreter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Source Files\Token</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSyntaxTree.cpp">
+      <Filter>Source Files\AbstractSyntaxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryOperator.cpp">
+      <Filter>Source Files\AbstractSyntaxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>Source Files\AbstractSyntaxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Source Files\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpreter.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Token.h">
+      <Filter>Source Files\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.h">
+      <Filter>Source Files\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryOperator.h">
+      <Filter>Source Files\AbstractSyntaxTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

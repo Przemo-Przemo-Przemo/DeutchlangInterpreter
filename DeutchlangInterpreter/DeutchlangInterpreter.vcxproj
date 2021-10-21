@@ -147,7 +147,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractSyntaxTree.cpp" />
+    <ClCompile Include="BinaryOperator.cpp" />
     <ClCompile Include="DeutchlangInterpreter.cpp" />
+    <ClCompile Include="Interpreter.cpp" />
+    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="Number.cpp" />
+    <ClCompile Include="Token.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryOperator.h" />
+    <ClInclude Include="Interpreter.h" />
+    <ClInclude Include="Lexer.h" />
+    <ClInclude Include="Token.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
